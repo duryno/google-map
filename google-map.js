@@ -1,7 +1,7 @@
-import { Polymer } from '../polymer/lib/legacy/polymer-fn.js';
-import { html } from '../polymer/lib/utils/html-tag.js';
+import { Polymer } from '../../@polymer/polymer/lib/legacy/polymer-fn.js';
+import { html } from '../../@polymer/polymer/lib/utils/html-tag.js';
 import './google-map-marker.js';
-import './../google-apis/google-maps-api.js';
+import '../../@johnriv/google-apis/google-maps-api.js';
 
 /* Copyright (c) 2015 Google Inc. All rights reserved. */
 /**
