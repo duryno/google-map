@@ -1,5 +1,6 @@
 import { Polymer } from '../../@polymer/polymer/lib/legacy/polymer-fn.js';
 import { html } from '../../@polymer/polymer/lib/utils/html-tag.js';
+import { IronResizableBehavior } from '../../@polymer/iron-resizable-behavior/iron-resizable-behavior.js';
 import './google-map-marker.js';
 import '../../@johnriv/google-apis/google-maps-api.js';
 
@@ -446,7 +447,7 @@ Polymer({
   },
 
   behaviors: [
-    Polymer.IronResizableBehavior,
+    IronResizableBehavior,
   ],
 
   _initGMap() {

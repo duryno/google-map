@@ -1,7 +1,7 @@
 {
   "name": "@johnriv/google-map",
   "flat": true,
-  "version": "3.0.0-pre.5",
+  "version": "3.0.0-pre.6",
   "description": "Google Maps web components",
   "contributors": [
     "Frankie Fu <ffu@google.com>",
@@ -20,7 +20,7 @@
   "license": "Apache-2.0",
   "homepage": "https://elements.polymer-project.org/elements/google-map",
   "dependencies": {
-    "@johnriv/google-apis": "^3.0.0-pre.1",
+    "@johnriv/google-apis": "^3.0.0-pre.2",
     "@polymer/polymer": "^3.0.0",
     "@polymer/iron-resizable-behavior": "^3.0.0-pre.1",
     "@polymer/iron-selector": "^3.0.0-pre.1"
