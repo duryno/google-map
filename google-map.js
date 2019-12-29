@@ -488,6 +488,7 @@ Polymer({
       styles: this.styles,
       maxZoom: Number(this.maxZoom),
       minZoom: Number(this.minZoom),
+      gestureHandling: 'greedy',
     };
 
     // Only override the default if set.
